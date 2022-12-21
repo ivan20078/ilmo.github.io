@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+<link rel="stylesheet" href="estilos.css">
+<body>
+  <h1 id="title">Encuesta<h1>
+  <p id="description">Esta encuesta  es para un certificado</p>
+  <form id="survey-form">
+<label id="name-label">
+Nombre<br><input id="name" type="text" placeholder="Ingrese su nombre" required></input>
+</label>
+<label id="email-label">
+<br>Email<br><input id="email" type="email" placeholder="Ingrese su Email" required></input>
+</label>
+<label id="number-label">
+ <br>Edad<br><input id="number" type="number" placeholder="Edad" min="1" max="100"></input>
+</label>
+<p id="alin">¿Que elegís?
+<br><select id="dropdown"> 
+  <option id="opciones">Auto</option>
+  <option id="opciones">Moto</option>
+  <option id="opciones">Micro</option>
+  <option id="opciones">Tren</option>
+  </select>
+  
+ <br> <label for="dropdown">¿Que preferís?</label>
+  <br><input id="coca" type="radio"value="coca" name="radio">
+    <label for="coca">Coca Cola</label>
+  <br><input id="mirinda"type="radio" value="mirinda" name="radio">
+    <label for="Mirinda"> Mirinda</label>
+     <br><input id="Fanta"type="radio" value="fanta" name="radio">
+     <label for=""> Fanta</label>
+      <br><input id="7up"type="radio" value="7up" name="radio">
+      <label for="">7 Up</label>
+    <p id="alin">¿Que mejorarías de esta página?
+    <br><input type="checkbox" value="mejora1">Front End
+    <br><input  type="checkbox" value="mejora2">Back end
+    <br><input type="checkbox" value="mejora3">Visualizacion de Información
+     <br><input type="checkbox" value="mejora4">Colores
+    <br><p id="alin">¿Alguna sugerencia?</p><textarea id="comentario"></textarea><br>
+    <br>
+    <button>Enviar</button>
+  </label>
+  </head>
+  </form>
+  </body>
+  </html>
